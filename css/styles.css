@@ -1,0 +1,198 @@
+*,
+*::before
+*::after{
+    box-sizing: border-box;
+}
+:root{
+    
+    --Primary-Brand:#4D5AE5;
+
+    --Pressed-state:#404BBF;
+
+    --Dark:#2E2F42;
+        
+    --Success:#31D0AA;
+
+    --Text:#434455;
+
+    --Subtle-Text:#8E8F99;
+
+    --Accent:#E7E9FC;
+
+    --Light:#F4F4FD;
+
+    --Modal-overlay:#2E2F42;
+
+    --Hero-background:#2E2F42;
+
+    --White-background:#FFFFFF;
+
+    --Modal-background:#FCFCFC;
+
+}
+
+body{
+    color:var(--Text);
+    font-family: Roboto, sans-serif;
+    background-color: var(--White-background);
+
+}
+
+
+/*STYLES LINK*/
+.link{
+    color:var(--Dark);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--Dark);
+    text-decoration: none;
+}
+
+.empty-link:hover,
+.link:hover{
+    color:var(--Pressed-state)
+}
+
+.link:active{
+    color: var(--Pressed-state);
+}
+
+.empty-link:focus,
+.link:focus{
+    color:var(--Pressed-state)
+}
+
+
+
+
+/*STYLES BUTTON*/
+
+.main-button:hover,
+.button:hover{
+    color: var(--White-background);
+    background-color: var(--Pressed-state);
+    cursor: pointer;
+}
+
+.main-button:focus,
+.button:focus{
+    color:var(--White-background);
+    background-color:var(--Pressed-state);
+}
+.button:active{
+    color: var(--White-background);
+    background-color: var(--Pressed-state);
+}
+
+.button{
+    cursor: pointer;
+    font-family: Roboto , sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--Primary-Brand);
+    background-color: var(--Light);
+}
+
+.main-button{
+    cursor: pointer;
+    font-family: Roboto , sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--White-background);
+    background-color: var(--Primary-Brand);
+
+}
+
+/*STYLES HEADLINE*/
+
+.headline{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:var(--Dark)
+}
+
+.second-headline{
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--Dark);
+}
+
+
+
+.main-headline{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--White-background);
+}
+
+.text{
+    font-size: 16px;
+    line-height: 1.5;
+    color:var(--Text);
+    font-weight: 400;
+    letter-spacing: 0.02em;
+}
+
+.list{
+    list-style: none;
+    
+}
+
+.footer{
+    background-color:var(--Dark);
+}
+
+
+.span-header{
+    color: var(--Dark);
+}
+
+.span-footer{
+    color: var(--Light);
+}
+
+
+.info{
+    color:var(--Text);
+    
+}
+
+.logo{
+    font-family: Raleway,sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:var(--Primary-Brand);
+    text-decoration: none;
+}
+
+.adres{
+    font-style: normal;
+}
+
+.section{
+    background-color:var(--Hero-background);
+}
+
+.last-section{
+    background-color: var(--Light);
+}
+
+.list-point{
+    background-color: var(--White-background);
+}
