@@ -48,6 +48,8 @@ body{
     letter-spacing: 0.02em;
     color: var(--Dark);
     text-decoration: none;
+    padding: 24px 0;
+    width: calc(100%-48px)/3;
 }
 
 .empty-link:hover,
@@ -76,11 +78,20 @@ body{
     cursor: pointer;
 }
 
+.button::hover{
+    border: 1px solid transparent;
+}
+
 .main-button:focus,
 .button:focus{
     color:var(--White-background);
     background-color:var(--Pressed-state);
 }
+
+.button:focus{
+    border: 1px solid transparent;
+}
+
 .button:active{
     color: var(--White-background);
     background-color: var(--Pressed-state);
@@ -95,6 +106,7 @@ body{
     letter-spacing: 0.04em;
     color: var(--Primary-Brand);
     background-color: var(--Light);
+    padding: 12px 24px;
 }
 
 .main-button{
@@ -106,6 +118,11 @@ body{
     letter-spacing: 0.04em;
     color: var(--White-background);
     background-color: var(--Primary-Brand);
+    display:block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 
 }
 
@@ -116,8 +133,11 @@ body{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color:var(--Dark)
+    color:var(--Dark);
+    margin-bottom: 8px;
+    
 }
+
 
 .second-headline{
     font-size: 36px;
@@ -126,6 +146,7 @@ body{
     text-align: center;
     text-transform: capitalize;
     color: var(--Dark);
+    margin-bottom: 72px;
 }
 
 
@@ -136,6 +157,7 @@ body{
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--White-background);
+    max-width: 496px;
 }
 
 .text{
@@ -148,11 +170,14 @@ body{
 
 .list{
     list-style: none;
+    display: flex;
+    gap: 40px;
     
 }
 
 .footer{
     background-color:var(--Dark);
+    padding: 100px 0;
 }
 
 
@@ -162,6 +187,7 @@ body{
 
 .span-footer{
     color: var(--Light);
+    max-width: 264px;
 }
 
 
@@ -179,6 +205,7 @@ body{
     text-transform: uppercase;
     color:var(--Primary-Brand);
     text-decoration: none;
+    margin-right: 76px;
 }
 
 .adres{
@@ -187,12 +214,102 @@ body{
 
 .section{
     background-color:var(--Hero-background);
+    padding: 188px 0;
 }
 
 .last-section{
     background-color: var(--Light);
+    padding: 120px 0;
 }
 
 .list-point{
     background-color: var(--White-background);
+    width: calc((100%-72px)/4);
+    border-radius: 0px 0px 4px 4px;
 }
+
+
+
+
+
+
+.header{
+    border-bottom: 1px solid var(--Accent);
+}
+
+.header-div{
+    display:flex;
+    
+}
+
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.section-2{
+    padding: 120px 0;
+}
+
+.atrybutes{
+    gap:24px;
+}
+
+.list-element{
+    width: calc((100% - 72px) / 4);
+}
+
+.container-person{
+    padding: 32px 0px;
+}
+
+.name{
+    text-align: center;
+}
+
+.foot{
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.section-3{
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+.center{
+    justify-content: center;
+}
+
+.bottom-72{
+    margin-bottom: 72px;
+}
+
+.border-button{
+    border: 1px solid var(--Accent);
+    border-radius:4px ;
+}
+
+.wrap{
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.list-element-2{
+    width: calc((100%-48px)/3);
+}
+
+.container-2{
+    padding: 32px 16px;
+    border: 1px solid var(--Accent);
+    border-top: none;
+}
+
