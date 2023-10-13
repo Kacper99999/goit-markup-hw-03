@@ -68,7 +68,7 @@ img{
     color:var(--Pressed-state)
 }
 
-
+/*------------------------------------------------*/
 
 
 /*STYLES BUTTON*/
@@ -128,6 +128,16 @@ img{
 
 }
 
+.button-margin-border{
+    margin-bottom: 72px;
+}
+
+.border-button{
+    border: 1px solid var(--Accent);
+    border-radius:4px ;
+}
+/*------------------------------------------------*/
+
 /*STYLES HEADLINE*/
 
 .headline{
@@ -162,13 +172,37 @@ img{
     max-width: 496px;
 }
 
-.text{
-    font-size: 16px;
-    line-height: 1.5;
-    color:var(--Text);
-    font-weight: 400;
-    letter-spacing: 0.02em;
+/*------------------------------------------------*/
+
+
+/*STYLES SECTIONS*/
+
+.section{
+    background-color:var(--Hero-background);
+    padding: 188px 0;
 }
+
+.section-second-opcion{
+    padding: 120px 0 120px;
+}
+
+.section-third-opcion{
+    padding-bottom: 120px;
+}
+
+.last-section{
+    background-color: var(--Light);
+    padding: 120px 0;
+}
+
+.section-portfolio{
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+/*------------------------------------------------*/
+
+/*STYLES LIST*/
 
 .list{
     list-style: none;
@@ -177,11 +211,31 @@ img{
     
 }
 
-.footer{
-    background-color:var(--Dark);
-    padding: 100px 0;
+.list-element-four{
+    background-color: var(--White-background);
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
+.list-atrybutes{
+    gap:24px;
+}
+
+.list-element{
+    width: calc((100% - 72px) / 4);
+}
+
+.list-element-two{
+    width: calc((100% - 48px) / 3);
+}
+
+.list-element-three{
+    width: calc(100%-48px)/3;
+}
+
+/*------------------------------------------------*/
+
+/*STYLES SPAN*/
 
 .span-header{
     color: var(--Dark);
@@ -190,6 +244,47 @@ img{
 .span-footer{
     color: var(--Light);
     max-width: 264px;
+}
+
+/*------------------------------------------------*/
+
+/*STYLES CONTAINER*/
+
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container-person{
+    padding: 32px 0px;
+}
+
+.container-two{
+    padding: 32px 16px;
+    border: 1px solid var(--Accent);
+    border-top: none;
+}
+
+/*------------------------------------------------*/
+
+
+/*OTHER*/
+
+.text{
+    font-size: 16px;
+    line-height: 1.5;
+    color:var(--Text);
+    font-weight: 400;
+    letter-spacing: 0.02em;
+}
+
+
+
+.footer{
+    background-color:var(--Dark);
+    padding: 100px 0;
 }
 
 
@@ -214,26 +309,6 @@ img{
     font-style: normal;
 }
 
-.section{
-    background-color:var(--Hero-background);
-    padding: 188px 0;
-}
-
-.last-section{
-    background-color: var(--Light);
-    padding: 120px 0;
-}
-
-.list-point{
-    background-color: var(--White-background);
-    width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
-}
-
-
-
-
-
 
 .header{
     border-bottom: 1px solid var(--Accent);
@@ -244,33 +319,13 @@ img{
     
 }
 
-.container{
-    width: 1158px;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
 
 .nav{
     display: flex;
     align-items: center;
 }
 
-.section-second-opcion{
-    padding: 120px 0 120px;
-}
 
-.atrybutes{
-    gap:24px;
-}
-
-.list-element{
-    width: calc((100% - 72px) / 4);
-}
-
-.container-person{
-    padding: 32px 0px;
-}
 
 .name{
     text-align: center;
@@ -281,23 +336,11 @@ img{
     margin-bottom: 16px;
 }
 
-.section-third-option{
-    padding-top: 96px;
-    padding-bottom: 120px;
-}
 
 .center{
     justify-content: center;
 }
 
-.bottom-margin-border{
-    margin-bottom: 72px;
-}
-
-.border-button{
-    border: 1px solid var(--Accent);
-    border-radius:4px ;
-}
 
 .wrap{
     flex-wrap: wrap;
@@ -305,24 +348,18 @@ img{
     row-gap: 48px;
 }
 
-.list-element-two{
-    width: calc((100% - 48px) / 3);
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
-.container-two{
-    padding: 32px 16px;
-    border: 1px solid var(--Accent);
-    border-top: none;
-}
-
-.hidden{
-    visibility: hidden;
-}
-
-.list-element-three{
-    width: calc(100%-48px)/3;
-}
-
-.third{
-    padding-bottom: 120px;
-}
+/*------------------------------------------------*/
