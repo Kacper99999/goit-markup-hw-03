@@ -55,6 +55,16 @@ img{
     
 }
 
+.link-photo{
+    font-weight: 500;
+    color:var(--Dark);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--Dark);
+    text-decoration: none;
+}
+
 .link-footer{
     font-weight: 500;
     color:var(--Dark);
@@ -63,7 +73,6 @@ img{
     letter-spacing: 0.02em;
     color: var(--Dark);
     text-decoration: none;
-    padding: 24px 0;
     display: inline-block;
     margin-bottom: 16px;
 }
@@ -139,9 +148,7 @@ img{
     height: 56px;
     border: none;
     border-radius: 4px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
+    margin:auto;
     
 
 }
@@ -190,6 +197,7 @@ img{
     max-width: 496px;
     margin-left: auto;
     margin-right:auto ;
+    margin: 0 auto 48px;
     
 }
 
@@ -319,6 +327,7 @@ img{
 
 .info{
     color:var(--Text);
+    font-weight: 400;
 }
 
 .logo{
