@@ -44,8 +44,8 @@ img{
 
 /*STYLES LINK*/
 .link{
-    color:var(--Dark);
     font-weight: 500;
+    color:var(--Dark);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -53,6 +53,7 @@ img{
     text-decoration: none;
     padding: 24px 0;
 }
+
 
 .empty-link:hover,
 .link:hover{
@@ -125,6 +126,10 @@ img{
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    
 
 }
 
@@ -170,6 +175,9 @@ img{
     letter-spacing: 0.02em;
     color: var(--White-background);
     max-width: 496px;
+    margin-left: auto;
+    margin-right:auto ;
+    
 }
 
 /*------------------------------------------------*/
@@ -209,6 +217,7 @@ img{
     display: flex;
     gap: 40px;
     
+    
 }
 
 .list-element-four{
@@ -244,6 +253,10 @@ img{
 .span-footer{
     color: var(--Light);
     max-width: 264px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0.02em;
 }
 
 /*------------------------------------------------*/
@@ -273,9 +286,9 @@ img{
 /*OTHER*/
 
 .text{
+    color:var(--Text);
     font-size: 16px;
     line-height: 1.5;
-    color:var(--Text);
     font-weight: 400;
     letter-spacing: 0.02em;
 }
@@ -283,14 +296,16 @@ img{
 
 
 .footer{
+    display: flex;
     background-color:var(--Dark);
     padding: 100px 0;
+    
 }
+
 
 
 .info{
     color:var(--Text);
-    
 }
 
 .logo{
@@ -302,11 +317,16 @@ img{
     text-transform: uppercase;
     color:var(--Primary-Brand);
     text-decoration: none;
-    margin-right: 76px;
+    margin-right: 76px;;
 }
 
 .adres{
     font-style: normal;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: auto;
+    font-weight: 400;
 }
 
 
@@ -317,12 +337,14 @@ img{
 .header-div{
     display:flex;
     
+    
 }
 
 
 .nav{
     display: flex;
     align-items: center;
+    
 }
 
 
@@ -334,8 +356,8 @@ img{
 .foot{
     display: inline-block;
     margin-bottom: 16px;
+    
 }
-
 
 .center{
     justify-content: center;
@@ -361,5 +383,21 @@ img{
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
+.flex{
+    display: flex;
+    
+}
+
+.img-person{
+    color:var(--Dark);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--Dark);
+    text-decoration: none;
+}
+
 
 /*------------------------------------------------*/
