@@ -52,6 +52,8 @@ img{
     color: var(--Dark);
     text-decoration: none;
     padding: 24px 0;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 
